@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+header .fa-bars{
+    color: white;
+}
+
+
+.nav-link{
+    filter: brightness(150%);
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .nav-item:hover .nav-link,
+header .nav-item.active .nav-link{
+    border-color: inherit;
+}
+
+span.navbar-toggler-icon{
+    color: white;
+}
+
+div.logo-img-blue{
+    background-image: url('https://i.imgur.com/QPkZaGk.png');
+    filter: brightness(1.75);
+    background-size: cover;
+    background-position: center;
+    width: 7rem;
+    height: 3rem;
+}
+
+button.navbar-collapse:active,
+button.navbar-collapse:hover,
+button.navbar-collapse{
+    border: none !important;
+    outline: none !important;
+}
